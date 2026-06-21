@@ -1,0 +1,85 @@
+# ====================================================================
+# Oracle PL/SQL Banking Assignment - .gitignore
+# ====================================================================
+
+# Database Files
+*.db
+*.dbf
+*.log
+*.arc
+
+# Backup and Temp Files
+*.bak
+*.backup
+*.tmp
+*.swp
+*.swo
+~*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE/Editor Files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python Virtual Environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node Modules
+node_modules/
+package-lock.json
+
+# Compiled Files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Maven
+target/
+.maven/
+
+# Gradle
+.gradle/
+build/
+
+# Java
+*.class
+*.jar
+
+# SQL Files to Ignore (optional - comment out if you want to track all SQL)
+# *.sql
+
+# Output Files
+*.out
+*.csv
+*.tsv
+output/
+logs/
+
+# Sensitive Information
+*.env
+*.credentials
+*.key
+secrets.txt
+
+# VS Code Specific
+.vscode/
+*.code-workspace
+
+# macOS Extended Attributes
+.OriginalFilenames
