@@ -1,4 +1,4 @@
-package org.example;
+package JUnit.example;
 
 public class PerformanceTester {
 
